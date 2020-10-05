@@ -963,10 +963,6 @@ body.ie ._ibg img {
   background: white;
 }
 
-.menu__body {
-  overflow-x: hidden;
-}
-
 .icon-menu {
   display: none;
 }
@@ -1733,6 +1729,10 @@ body.ie ._ibg img {
 
   .header._active:before {
     background: #000;
+  }
+
+  .menu__body {
+    overflow-x: hidden;
   }
 
   .header__menu {
